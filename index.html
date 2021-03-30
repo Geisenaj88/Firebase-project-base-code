@@ -1,0 +1,74 @@
+<!--
+Copyright 2021 Taming The Tech, LLC
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Web App Template</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+        <link rel="shortcut icon" href="https://i.postimg.cc/VLZ3DCgw/icon-placeholder.png" type="image/x-icon">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.css" integrity="sha256-QVBN0oT74UhpCtEo4Ko+k3sNo+ykJFBBtGduw13V9vw="
+	 crossorigin="anonymous" />
+
+	<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous">
+	</script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.js" integrity="sha256-qs5p0BFSqSvrstBxPvex+zdyrzcyGdHNeNmAirO2zc0="
+	 crossorigin="anonymous">
+	</script>
+
+</head>
+
+<script>
+    
+    window.onload = function() {
+        checkLoggedIn();
+    };
+
+</script>
+
+
+<body>
+
+	<div class="ui stackable inverted menu">
+		<div class="ui container">
+			<a href="/" class="header item">
+				<img class="ui mini image" src="https://i.postimg.cc/VLZ3DCgw/icon-placeholder.png" style="margin-right:15px">
+                <span style="font-size:120%">Firebase Web App Template (Google Only)
+                </span>
+            </a>
+            <div class="right menu">
+                <div class="item" id="userInfo" style="margin:-10px">
+                    <a href="javascript:signIn()">Sign in</a>
+                </div>
+            </div>            
+        </div>
+    </div>
+
+    <div class="ui container">
+        
+    </div>
+
+<!-- All of your Firebase Config and Init code will go here. You'll get it from the Firebase console when you register your app -->
+
+	<script src="script.js"></script>
+
+</body>
+
+</html>
